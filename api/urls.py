@@ -13,6 +13,6 @@ api.register(category_resource)
 # api/v1/categories/ GET
 # api/v1/categories/1/ GET
 
-url_patterns = [
+urlpatterns = [
     path('', include(api.urls), name='index')
 ]
